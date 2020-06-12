@@ -1,0 +1,13 @@
+.header-logo {
+    height: 2.5rem;
+}
+
+li {
+    padding: 0 1rem;
+}
+.active {
+    background-color: #cecece;
+}
+a {
+    cursor: pointer !important;
+}

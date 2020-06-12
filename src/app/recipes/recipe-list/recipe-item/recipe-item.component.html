@@ -1,0 +1,9 @@
+<a class="list-group-item clearfix border-top mb-3 shadow-sm">
+    <div class="float-left mr-5">
+        <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+        <p class="list-group-item-text"> {{ recipe.description }} </p>
+    </div>
+    <span class="float-right">
+        <img [src]="recipe.imagePath" class="img-fluid" style="height: 70px; width: 80px;">
+    </span>
+</a>

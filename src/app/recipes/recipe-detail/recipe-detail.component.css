@@ -1,0 +1,14 @@
+.img-poster {
+    height: 25rem;
+    width: 25rem;
+}
+
+li {
+    margin-bottom: 8px !important;
+    cursor: pointer;
+}
+
+
+.show {
+    padding: 1rem;
+}

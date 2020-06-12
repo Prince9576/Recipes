@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" >
+        <img class = "header-logo" src="./assets/images/recipe-logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive = "active" >
+          <a class="nav-link" routerLink= "home">Home</a>
+        </li>
+        <li class="nav-item" routerLinkActive = "active" >
+          <a class="nav-link" routerLink= "shopping-list">Shopping List</a>
+        </li>
+        <li class="nav-item dropdown float-right" appDropdown>
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button">
+            Manage
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item" >Save data</li>
+            <li class="dropdown-item" >Fetch data</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
